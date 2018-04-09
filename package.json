@@ -9,7 +9,7 @@
   "author": "Mike Binder",
   "license": "ISC",
   "engines": {
-    "node": "4.4.7"
+    "node": "9.9.0"
   },
   "dependencies": {
     "axios": "^0.12.0",
