@@ -53,4 +53,4 @@ var helpers = {
 
 
 // We export the helpers function
-module.exports = helpers;
+export default helpers;

@@ -21,9 +21,9 @@ var Results = React.createClass({
 	},
 
 	componentWillReceiveProps: function(nextProps){
-		var that = this;
+	
 		var myResults = nextProps.results.map(function(search, i){
-			var boundClick = that.clickToSave.bind(that, search);
+			var boundClick = this.clickToSave.bind(this, search);
 			return <div className="list-group-item" key={i}><a href={search.web_url} target="_blank">{search.headline.main}</a><br />{search.pub_date}<br /><button type="button" className="btn btn-primary" style={{'float': 'right', 'marginTop': '-39px'}} onClick={boundClick}>Save</button></div>
 		});
 
@@ -48,4 +48,4 @@ var Results = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = Results;
+export default Results;

@@ -25,7 +25,7 @@ npm manifest:
     "author": "Mike Binder",
     "license": "ISC",
     "engines": {
-      "node": "4.4.7"
+      "node": "9.9.0"
     },
     "dependencies": {
       "axios": "^0.12.0",
@@ -55,10 +55,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit signal: SIGKILL
+  Exit code: 1
   Command: sh
   Arguments: -c node server.js
-  Directory: /Users/mikebinder/Desktop/nyt stuff
+  Directory: /Users/mikebinder/Desktop/ReactApp
   Output:
   
       at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)

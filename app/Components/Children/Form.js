@@ -4,7 +4,7 @@ var React = require('react');
 // Component creation
 var Form = React.createClass({
 
-	// Here we set a generic state associated with the text being searched for
+	// Set state
 	getInitialState: function(){
 		return {
 			topic: "",
@@ -23,7 +23,7 @@ var Form = React.createClass({
 
 	},
 
-	// When a user submits... 
+	// Click function
 	handleClick: function(){
 	
 		// Set the parent to have the search term
@@ -31,7 +31,7 @@ var Form = React.createClass({
 
 	},
 
-	// Here we render the function
+	// render the function
 	render: function(){
 
 		return(
@@ -66,5 +66,4 @@ var Form = React.createClass({
 	}
 });
 
-// Export the component back for use in other files
-module.exports = Form;
+export default Form;

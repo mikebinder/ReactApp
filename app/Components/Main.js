@@ -4,12 +4,13 @@ var axios = require('axios');
 var React = require('react');
 
 // Here we include all of the sub-components
-var Form = require('./Children/Form');
-var Results = require('./Children/Results');
-var Saved = require('./Children/Saved');
+import { Form } from './Children/Form';
+import { Results } from './Children/Form';
+import { Saved } from './Children/Form';
 
-// Helper Function
-var helpers = require('./utils/helpers.js');
+
+// Helper Function for axios requests
+import { helpers } from './utils/helpers.js';
 
 
 // This is the main component. 

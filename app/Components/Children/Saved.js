@@ -3,7 +3,7 @@ var React = require('react');
 
 // This is the saved component. It will be used to show a log of saved articles.
 var Saved = React.createClass({
-
+// Initial state is empty
 	getInitialState: function(){
 		return {
 			savedArticles: []
@@ -19,7 +19,7 @@ var Saved = React.createClass({
 		var that = this;
 		console.log(nextProps);
 		var myResults = nextProps.savedArticles.map(function(search, i){
-			var boundClick = that.clickToDelete.bind(that, search);
+			var boundClick = this.clickToDelete.bind(that, search);
 			return <div className="list-group-item" key={i}><a href={search.url} target="_blank">{search.title}</a><br />{search.date}<br /><button type="button" className="btn btn-danger" style={{'float': 'right', 'marginTop': '-39px'}} onClick={boundClick}>Delete</button></div>
 		});
 
@@ -49,4 +49,4 @@ var Saved = React.createClass({
 
 
 // Export the component back for use in other files
-module.exports = Saved;
+export default Saved;
