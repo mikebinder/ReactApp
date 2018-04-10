@@ -55,7 +55,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit signal: SIGKILL
   Command: sh
   Arguments: -c node server.js
   Directory: /Users/mikebinder/Desktop/ReactApp

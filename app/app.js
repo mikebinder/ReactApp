@@ -3,11 +3,14 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 // Include the Main Component
-var Main = require('./Components/Main')
+import Main from './Components/Main';
 
 // This code here allows us to render our main component (in this case "Main")
-ReactDOM.render(
+const app = () =>
+  <Router>
+    <div>
+      <Main />
+    </div>
+  </Router>;
 
-	<Main />,
-	document.getElementById('app')
-)
+export default app;
