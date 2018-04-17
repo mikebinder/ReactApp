@@ -1,0 +1,320 @@
+
+
+
+[
+{
+    "text" : "The year is 1995. You have been sent back in time to locate and protect John Connor, the future leader of the human resistance. Skynet has sent a Terminator of their own, and with John's mother locked away in a psychiatric institute, you are his only hope of survival. You must find John before the T1000.",
+    "image" : "",
+    "options" : [
+      {
+        "text": "Accept mission.",
+        "send_to": 2
+        
+      },
+      {
+        "text": "Reject mission.",
+        "send_to": 1
+      }
+    ]
+  },
+  {
+    "text" : "You failed to protect John Connor. Judgement Day happened, and without a leader humanity was defeated and enslaved by the machines. Way to go idiot.",
+    "image" : "https://thumbs.gfycat.com/ObviousDependableFennecfox-size_restricted.gif",
+    "options" : [
+      {
+        "text": "Restart.",
+        "send_to": 0
+        
+      }
+    ]
+  },
+  {
+    "text" : "You find yourself naked in a truck yard. You'd think if they could send you back through time they could manage to send some clothing back, but you can't preoccupy yourself with such things. You're a terminator.",
+    "image" : "https://media.giphy.com/media/SS4gxMEm8tHLq/giphy.gif",
+    "options" : [
+      {
+        "text": "Steal a truck.",
+        "send_to": 3
+        
+      },
+      {
+        "text": "Find some clothing to wear.",
+        "send_to": 4
+        
+      }
+    ]
+  },
+  {
+    "text" : "There are no keys in the truck, but you're able to hotwire it. You begin driving naked into Los Angeles. It's not long before you're stopped by a police officer. Without any identification and unable to lose any time, you have no choice but to kill him. You'd steal his uniform but it doesn't fit. You realize you desperately need clothing.",
+    "image" : "",
+    "options" : [
+     
+      {
+        "text": "Find some clothing to wear.",
+        "send_to": 4
+        
+      }
+    ]
+  },
+  {
+    "text" : "In your travels, you come across a bar. It looks rough, but you're a killer robot. You come to the conclusion that there may be somebody in there with clothing you can steal.",
+    "image" : "http://www.themoviedistrict.com/wp-content/uploads/2014/06/terminator201.jpg",
+    "options" : [
+     
+      {
+        "text": "Enter the bar.",
+        "send_to": 5
+        
+      },
+      {
+        "text": "Steal a motorcycle.",
+        "send_to": 6
+        
+      }
+    ]
+  },
+  {
+    "text" : "The bar isn't great, but you quickly locate a man wearing a suitable outfit. Initially he isn't willing to hand over his clothes, boots, and motorcyle, but after you break his arm and throw him on a grill he has no choice but to acquiesce.",
+    "image" : "https://media.giphy.com/media/8wsi06M6ixaHm/giphy.gif",
+    "options" : [
+     
+      
+      {
+        "text": "Take a motorcycle.",
+        "send_to": 7
+        
+      }
+    ]
+  },
+  {
+    "text" : "You hotwire a motorcycle and again take off stark naked into the Los Angeles night. Not one mile down the road you are stopped by another cop. Not wanting to draw further attention, you simply knock him out and decide to return to the bar.",
+    "image" : "https://i.pinimg.com/originals/85/4c/d9/854cd9d46866709896b0ded235734df2.gif",
+    "options" : [
+     
+      {
+        "text": "Return to the bar.",
+        "send_to": 5
+        
+      }
+    ]
+  },
+  {
+    "text" : "Now fully clothed, you steal a gun and a pair of sunglasses and are ready to hit the road. There isn't much time to waste. You have to find John.",
+    "image" : "https://i1.wp.com/gifyu.com/images/t800shotgun.gif",
+    "options" : [
+     
+      {
+        "text": "Head into the city.",
+        "send_to": 8
+        
+      },
+      {
+        "text": "Go back into the bar for a beer.",
+        "send_to": 9
+        
+      }
+    ]
+  },
+  {
+    "text" : "You arrive in Los Angeles and are able to find out where John's foster parents live. You pay them a visit but they tell you they haven't seen John in a few days but he hangs out at the mall. The fact they're alive means the T-1000 probably hasn't visited yet.",
+    "image" : "",
+    "options" : [
+     
+      {
+        "text": "Stakeout the area around the Galleria.",
+        "send_to": 10
+        
+      },
+      {
+        "text": "Go sightseeing like every other tourist in LA.",
+        "send_to": 11
+        
+      }
+    ]
+  },
+  {
+    "text" : "You walk back in the bar and everybody, including the bartender, flee screaming. You'd forgotten that you can't drink it anyways. Because you're a robot. Time to head into the city and look for John. ",
+    "image" : "",
+    "options" : [
+     
+      {
+        "text": "Head into the city.",
+        "send_to": 8
+        
+      }
+    ]
+  },
+  {
+    "text" : "While driving around the area surrounding the mall, you locate John Connor on a dirtbike. He was easier to spot because his friend on the back of the bike had bright red hair. Last you see them, they are driving the bike into a parking structure at the mall.",
+    "image" : "https://i.makeagif.com/media/9-14-2015/4bOBfJ.gif",
+    "options" : [
+     
+      {
+        "text": "Head inside the mall.",
+        "send_to": 14
+        
+      },
+      {
+        "text": "Visit the Hollywood Walk of Fame.",
+        "send_to": 12
+        
+      }
+    ]
+  },
+  {
+    "text" : "The sights are magnificent, although somewhat lost on you since you're a Terminator. You nearly kill a man on Hollywood Boulevard dressed as Silver Surfer after mistaking him for the T-1000. This reminds you you should probably go back and locate John.",
+    "image" : "",
+    "options" : [
+     
+      {
+        "text": "Return to the mall.",
+        "send_to": 10
+        
+      },
+      {
+        "text": "Visit the Hollywood Walk of fame.",
+        "send_to": 12
+        
+      }
+    ]
+  },
+  {
+    "text" : "The Walk of Fame is unimpressive. It bothers you that humans are so enamored with celebrities. Additionally, a lot of these famous people have very funny names -- most of all somebody named 'Arnold Schwarzenegger' The sun is now setting and you should probably go locate John.",
+    "image" : "http://ak9.picdn.net/shutterstock/videos/33429049/thumb/1.jpg",
+    "options" : [
+     
+      {
+        "text": "Return to the mall.",
+        "send_to": 13
+        
+      }
+      
+    ]
+  },
+  {
+    "text" : "You return to the mall and can't help but notice the number of police officers. You ask one of them what's going on, and he tells you that a young boy was killed. 'What's the boy's name!' you scream. The cop answers 'Conor something'. You spent too much time sightseeing and failed your mission. If you had a heart, it would break.",
+    "image" : "http://78.media.tumblr.com/7953dceddda043a9f480253db6e3a82d/tumblr_meoleaSrL41rik7eyo2_500.gif",
+    "options" : [
+     
+      {
+        "text": "Continue",
+        "send_to": 1
+        
+      }
+    ]
+    },
+    {
+      "text" : "The mall is packed and you immediately realize how little you like young kids. You're manage to locate John just as he appears to be fleeing from a cop -- actually the T-1000 in disguise. A kid spills ice cream on you and for a moment you think it might be better just to let John get killed, but your programming takes over and you spring into action.",
+      "image" : "https://68.media.tumblr.com/a9ed8b1bb0cf85330146faafc6d53603/tumblr_ounjuiBy9u1spkic4o1_500.gif",
+      "options" : [
+       
+        {
+          "text": "Engage the T-1000.",
+          "send_to": 15
+          
+        },
+        {
+          "text": "Hold your fire. There is a handyman drinking a Pepsi. You must minimize civilian casualties.",
+          "send_to": 1
+          
+        }
+      ]
+      },
+      {
+        "text" : "You manage to protect John from the T-1000s bullets, although the handyman is not so lucky. Whatever. He shouldn't have been standing there. In the ensuing chaos, John manages to escape the mall on his dirtbike with the T-1000 in hot pursuit.",
+        "image" : "http://78.media.tumblr.com/1f4579b30890e7158d15826d13ce40a2/tumblr_nbimjcX1lS1ql8t12o1_500.gif",
+        "options" : [
+         
+          {
+            "text": "Leave the mall.",
+            "send_to": 16
+            
+          },
+          {
+            "text": "Visit sunglass hut and buy a new pair of shades.",
+            "send_to": 1
+            
+          }
+        ]
+        },
+        {
+          "text" : "T-1000 is purusing John with a gigantic semi truck. His shitty dirtbike won't be able to outrun it, but your bike can. You swing into action.",
+          "image" : "https://tropeanddagger.files.wordpress.com/2015/05/t2-motorcycles-truck.gif",
+          "options" : [
+           
+            {
+              "text": "Continue shooting at the T-1000s semi.",
+              "send_to": 17
+              
+            },
+            {
+              "text": "Floor it without looking back.",
+              "send_to": 18
+              
+            }
+          ]
+          },
+          {
+            "text" : "The T-1000s truck was destroyed, but he was not. It won't be long before he's back on your trail. It's time to get out of town and break John's mother out of the loony bin.",
+            "image" : "https://i.giphy.com/media/blhqVfEITE8fe/giphy.webp",
+            "options" : [
+             
+              {
+                "text": "Stop by John's foster parent's house to grab essentials for the trip.",
+                "send_to": 19
+                
+              },
+              {
+                "text": "Proceed directly to Pescadero State Mental Hospital.",
+                "send_to": 20
+                
+              }
+            ]
+            },
+          {
+            "text" : "You could have seen a supercool explosion but it's probably best to break John's mom out of the mental hospital.",
+            "image" : "",
+            "options" : [
+             
+              {
+                "text": "Stop by John's foster parent's house to grab essentials for the trip.",
+                "send_to": 19
+                
+              },
+              {
+                "text": "Proceed directly to Pescadero State Mental Hospital.",
+                "send_to": 20
+                
+              }
+            ]
+            },
+            {
+              "text" : "T-1000 is waiting at the house disguised as John's foster mom. John walks right into the trap.",
+              "image" : "http://www.dieulois.com/racine/movies/aliens-jenette-t2.gif",
+              "options" : [
+               
+                {
+                  "text": "John is killed by the T-1000",
+                  "send_to": 1
+                  
+                }
+              ]
+              },
+              {
+                "text" : "You shoot your way into the mental hospital and locate Sarah Connor moments before the T-1000 does.  ",
+                "image" : "https://thumbs.gfycat.com/WelcomePastelHarborseal-size_restricted.gif",
+                "options" : [
+                 
+                  {
+                    "text": "",
+                    "send_to": 21
+                    
+                  }
+                ]
+                }
+          
+  
+
+  
+]
+  

@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>New York Times Article Search</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+   <!-- Compiled and minified CSS -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+   <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
 
-	<!-- Here we include bootstrap. This will be made available to all of the generated HTML/JS that React generates-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-</head>
-<style>
-	body {
-		background-image: url("./assets/images/newspaper.jpg");
-	}
-	
-</style>
-<body>
-	
-	<!-- This is where React will deploy the contents it generates -->
-	<div id="app"></div>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  
+    
+    <title>Terminator Text Adventure</title>
 
-	<!-- All of our JS code will be transpiled into this bundle.js file -->
-	<script src="bundle.js"></script>
-	
-</body>
+  </head>
+
+  <body>
+    <div class = "header">
+      <h1>TERMINATOR 2</h1>
+    </div>
+    
+    <!-- any header or styling can go here -->
+    <div id="root"></div>
+    
+   
+  </body>
 </html>
 
+<style>
+
+  body {
+    background-color: black;
+    align-content: center;
+    font-family: 'computer';
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+#root {
+  margin-left:10%;
+  margin-right: 10%;
+  background-color:black;
+  color: white;
+}
+
+
+#logo {
+  height:200px;
+  width: auto;
+
+  
+}
+  .header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 0px;
+  border-bottom: solid black 3px;
+  background-color:black;
+}
+
+
+.btn {
+  background-color:transparent;
+}
+
+
+</style>
+  
